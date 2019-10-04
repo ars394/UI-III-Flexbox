@@ -1,0 +1,222 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    line-height: 1.4;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.container {
+    width: 880px;
+    /* TB LR */
+    margin: 0 auto;
+  }
+  
+  /* header */
+  
+  header {
+      display: flex;
+      margin: 25px 25px 15px 25px;
+      width: 100%;
+  }
+  
+  header nav {
+    display: flex;
+    vertical-align: top;
+    margin-top: 18px;
+  }
+  
+  header nav a {
+    margin-right: 65px;
+    font-size: 16px;
+    color: gray;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+    margin-left: -20px;
+  }
+  
+  header nav a:last-child {
+    margin-right: 0;
+  }
+  
+  header .logo {
+    margin-top: 8px;
+    margin-left: 70px;
+  }
+  
+  /* services header */
+
+  .services-header-img {
+      width: 100%;
+      display: flex;
+      margin-bottom: 30px;
+  }
+
+  .services-head h2 {
+      width: 100%;
+      display: flex;
+      font-size: 26px;
+      margin-bottom: 20px;
+  }
+
+  .services-head p {
+    width: 100%;
+    display: flex;
+    margin-bottom: 45px;
+
+}
+
+/*main content */
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 0px;
+  padding-top: 40px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.text-content {
+    border: 1px solid black; 
+    background-color: gainsboro;
+    width: 46%;
+    margin: 0px;
+}
+
+.main-content .digital-design {
+    margin: 0px 30px 30px 0px;
+}
+
+.main-content .ux-ui {
+    margin: 0px 0px 30px 30px;
+}
+
+.main-content .digital-marketing {
+    margin: 10px 30px 30px 0px;
+}
+
+.main-content .web-development {
+    margin: 10px 0px 30px 30px;
+}
+
+.main-content .ios-development {
+    margin: 10px 30px 0px 0px;
+}
+
+.main-content .android-development {
+    margin: 10px 0px 0px 30px;
+}
+
+.text-content h4 {
+    display: flex;
+    padding: 20px 20px 0px 20px;
+}
+
+.text-content p {
+    line-height: 1.4;
+    padding: 20px 20px 60px 20px;
+    
+}
+
+.main-content button {
+    padding: 8px 32px;
+    border: 1px solid black;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    margin: -20px 0px 20px 20px;
+}
+
+.main-content button:hover {
+    background-color: gainsboro;
+    color: white;
+}
+
+.facts {
+    display: flex;
+    border-top: 1px solid black;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.facts-blurb {
+    margin-bottom: 25px;
+    margin-right: 40px;
+}
+
+ul li {
+    margin-left: 20px;
+    list-style-type: disc;
+    padding: 10px 0px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 80px 0px;
+}
